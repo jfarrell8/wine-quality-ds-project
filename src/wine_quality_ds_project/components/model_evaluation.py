@@ -12,9 +12,9 @@ from src.wine_quality_ds_project.entity.config_entity import ModelEvaluationConf
 from src.wine_quality_ds_project.constants import *
 from src.wine_quality_ds_project.utils.common import read_yaml, create_directories,save_json
 
-# os.environ["MLFLOW_TRACKING_URI"]="https://dagshub.com/jfarrell8/wine-quality-ds-project.mlflow"
-# os.environ["MLFLOW_TRACKING_USERNAME"]="jfarrell8"
-# os.environ["MLFLOW_TRACKING_PASSWORD"]="0f2887bb876ff6c81a36ffa6815c46a6465dc19e"
+os.environ["MLFLOW_TRACKING_URI"]="https://dagshub.com/jfarrell8/wine-quality-ds-project.mlflow"
+os.environ["MLFLOW_TRACKING_USERNAME"]="jfarrell8"
+os.environ["MLFLOW_TRACKING_PASSWORD"]="0f2887bb876ff6c81a36ffa6815c46a6465dc19e"
 
 
 class ModelEvaluation:
